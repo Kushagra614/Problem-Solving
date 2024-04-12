@@ -37,5 +37,17 @@ public:
         }
         return count;
         
+
+    //SOLVING BY RECUSRION
+    int maxDepth(TreeNode* root) {
+        //base case
+        if(root == nullptr) {
+            return 0;
+        }
+        int leftheight = maxDepth(root->left);
+        int rightheight = maxDepth(root->right);
+        int height = max(leftheight, rightheight)+1;
+        return height;
+    }
     }
 };
