@@ -36,4 +36,8 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0102-binary-tree-level-order-traversal) |
+## Array
+|  |
+| ------- |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/Kushagra614/Problem-Solving/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 <!---LeetCode Topics End-->
