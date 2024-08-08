@@ -45,5 +45,14 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 ## Array
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Kushagra614/Problem-Solving/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+## Two Pointers
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
