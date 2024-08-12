@@ -1,16 +1,22 @@
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
-        int n= nums.size();
-        vector<int>ans(n);
-        int t=0;
+        
+        
+        int n = nums.size();
+        k = k % n; // Handle cases where k is greater than n
 
-        for(int index = 0; index < n; index ++){
+    if (k == 0) return;
+        //reversing the whole array
+        reverse(nums.begin(),nums.end());
+        //reversing 1st part
+        reverse(nums.begin(), nums.begin()+k);
+        //reversing the end part
+        reverse(nums.begin()+k, nums.end());
 
-            int newIndex = (index +k) % n;
-            ans[newIndex] = nums[index];
-
+        for(int num: nums)
+        {
+            cout<<num<<" ";
         }
-        nums = ans;
     }
 };
