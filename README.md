@@ -65,4 +65,8 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
+## String
+|  |
+| ------- |
+| [3379-score-of-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/3379-score-of-a-string) |
 <!---LeetCode Topics End-->
