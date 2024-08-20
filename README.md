@@ -72,5 +72,6 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 ## String
 |  |
 | ------- |
+| [0058-length-of-last-word](https://github.com/Kushagra614/Problem-Solving/tree/master/0058-length-of-last-word) |
 | [3379-score-of-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/3379-score-of-a-string) |
 <!---LeetCode Topics End-->
