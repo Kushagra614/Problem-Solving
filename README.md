@@ -54,6 +54,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Kushagra614/Problem-Solving/tree/master/0283-move-zeroes) |
+| [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Kushagra614/Problem-Solving/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
 |  |
@@ -63,10 +64,12 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Kushagra614/Problem-Solving/tree/master/0283-move-zeroes) |
+| [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 ## Sorting
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
+| [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 ## Math
 |  |
 | ------- |
@@ -76,4 +79,12 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | ------- |
 | [0058-length-of-last-word](https://github.com/Kushagra614/Problem-Solving/tree/master/0058-length-of-last-word) |
 | [3379-score-of-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/3379-score-of-a-string) |
+## Hash Table
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+## Binary Search
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 <!---LeetCode Topics End-->
