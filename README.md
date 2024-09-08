@@ -53,6 +53,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | [0027-remove-element](https://github.com/Kushagra614/Problem-Solving/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Kushagra614/Problem-Solving/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Kushagra614/Problem-Solving/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -69,11 +70,13 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
+| [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 ## Math
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 ## String
 |  |
 | ------- |
@@ -82,9 +85,15 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 ## Hash Table
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
