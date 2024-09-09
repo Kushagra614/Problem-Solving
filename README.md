@@ -53,6 +53,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | [0027-remove-element](https://github.com/Kushagra614/Problem-Solving/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Kushagra614/Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
@@ -101,4 +102,8 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | ------- |
 | [0136-single-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Kushagra614/Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
