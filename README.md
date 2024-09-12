@@ -60,6 +60,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | [0136-single-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
+| [0274-h-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/Kushagra614/Problem-Solving/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/Kushagra614/Problem-Solving/tree/master/0485-max-consecutive-ones) |
@@ -79,6 +80,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
+| [0274-h-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0274-h-index) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 ## Math
 |  |
@@ -121,4 +123,8 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | [0045-jump-game-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Kushagra614/Problem-Solving/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
