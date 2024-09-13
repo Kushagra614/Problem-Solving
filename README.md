@@ -93,6 +93,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Kushagra614/Problem-Solving/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/Kushagra614/Problem-Solving/tree/master/0014-longest-common-prefix) |
 | [0058-length-of-last-word](https://github.com/Kushagra614/Problem-Solving/tree/master/0058-length-of-last-word) |
 | [3379-score-of-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/3379-score-of-a-string) |
 ## Hash Table
@@ -132,4 +133,8 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Kushagra614/Problem-Solving/tree/master/0238-product-of-array-except-self) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Kushagra614/Problem-Solving/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
