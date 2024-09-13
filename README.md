@@ -49,6 +49,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Kushagra614/Problem-Solving/tree/master/0027-remove-element) |
 | [0045-jump-game-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0045-jump-game-ii) |
@@ -99,6 +100,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/Kushagra614/Problem-Solving/tree/master/0013-roman-to-integer) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
