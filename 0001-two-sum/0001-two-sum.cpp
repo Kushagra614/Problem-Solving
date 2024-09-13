@@ -1,34 +1,20 @@
 class Solution {
 public:
-    template <typename T>
-    vector<int> sort_indexes(const vector<T> &v) {
-
-      // initialize original index locations
-      vector<int> idx(v.size());
-      iota(idx.begin(), idx.end(), 0);
-
-      // sort indexes based on comparing values in v
-      sort(idx.begin(), idx.end(),
-           [&v](int i1, int i2) {return v[i1] < v[i2];});
-
-      return idx;
-    }
-    
     vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> ixs = sort_indexes(nums);
+        unordered_map<int, int> hashMap;  // Map to store the value and its index
         
-        int i = 0, j = nums.size()-1;
-        
-        while(i < j){
-            int ix1 = ixs[i], ix2 = ixs[j];
-            if(nums[ix1] + nums[ix2] == target){
-                return vector<int> {ix1, ix2};
-            }else if(nums[ix1] + nums[ix2] < target){
-                i++;
-            }else{
-                j--;
+        for (int i = 0; i < nums.size(); i++) {
+            int complement = target - nums[i];  // Calculate complement
+            
+            // If complement exists in the map, we found the pair
+            if (hashMap.find(complement) != hashMap.end()) {
+                return {hashMap[complement], i};  // Return the indices
             }
+            
+            // Store the current value and its index in the map
+            hashMap[nums[i]] = i;
         }
-        return vector<int>();
+        
+        return {};  // Return an empty vector if no solution is found (problem guarantees a solution)
     }
 };
