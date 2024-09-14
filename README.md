@@ -9,6 +9,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Kushagra614/Problem-Solving/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
@@ -52,6 +53,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | [0001-two-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Kushagra614/Problem-Solving/tree/master/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/Kushagra614/Problem-Solving/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Kushagra614/Problem-Solving/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -72,6 +74,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Kushagra614/Problem-Solving/tree/master/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/Kushagra614/Problem-Solving/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
@@ -117,6 +120,7 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Kushagra614/Problem-Solving/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Kushagra614/Problem-Solving/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kushagra614/Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -139,4 +143,8 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Kushagra614/Problem-Solving/tree/master/0014-longest-common-prefix) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Kushagra614/Problem-Solving/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
