@@ -163,4 +163,12 @@ These problems are from LEETCODE and GEEKSFORGEEKS
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Kushagra614/Problem-Solving/tree/master/0042-trapping-rain-water) |
+## Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Kushagra614/Problem-Solving/tree/master/0021-merge-two-sorted-lists) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Kushagra614/Problem-Solving/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
