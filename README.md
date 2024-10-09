@@ -1,8 +1,14 @@
 # Solved Problems - Data Structures and Algorithms
 
-These problems are from LEETCODE and GEEKSFORGEEKS
+## These problems are from LEETCODE and GEEKSFORGEEKS
 
 ### I HAVE USED  EXTESNTIONS LIKE LEETHUB TO UPLOAD MY CODE DIRECTLY TO GITHUB
+
+
+
+
+
+
 
 
 
