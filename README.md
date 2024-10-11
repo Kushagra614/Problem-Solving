@@ -83,6 +83,7 @@
 | [0283-move-zeroes](https://github.com/Kushagra614/Problem-Solving/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/Kushagra614/Problem-Solving/tree/master/0485-max-consecutive-ones) |
+| [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Kushagra614/Problem-Solving/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
@@ -144,6 +145,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kushagra614/Problem-Solving/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -173,6 +175,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Kushagra614/Problem-Solving/tree/master/0238-product-of-array-except-self) |
+| [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Trie
 |  |
@@ -194,5 +197,6 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Kushagra614/Problem-Solving/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
