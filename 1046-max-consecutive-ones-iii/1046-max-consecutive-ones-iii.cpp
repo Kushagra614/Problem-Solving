@@ -1,6 +1,7 @@
 class Solution {
 public:
     int longestOnes(vector<int>& nums, int k) {
+
         int n = nums.size();
         int l = 0;        // Left pointer
         int r = 0;        // Right pointer
