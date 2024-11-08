@@ -25,6 +25,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0102-binary-tree-level-order-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0110-balanced-binary-tree) |
@@ -36,6 +37,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0144-binary-tree-preorder-traversal) |
@@ -46,6 +48,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0102-binary-tree-level-order-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0110-balanced-binary-tree) |
@@ -199,4 +202,8 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Kushagra614/Problem-Solving/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
