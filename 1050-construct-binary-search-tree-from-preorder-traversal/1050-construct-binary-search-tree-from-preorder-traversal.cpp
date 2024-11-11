@@ -12,34 +12,79 @@
 class Solution {
 public:
 
-    TreeNode* solve(TreeNode* root, int val)
+    //BRUTE FORCE APPROCH
+
+    // TreeNode* solve(TreeNode* root, int val)
+    // {
+    //     if(root==nullptr)
+    //     {
+    //        return new TreeNode(val); 
+    //     }
+
+    //     if(root->val > val)
+    //     {
+    //         root->left = solve(root->left, val);
+    //     }
+        
+    //     if(root->val < val)
+    //     {
+    //         root->right = solve(root->right, val);
+    //     }
+
+    //     return root;
+
+
+    // }
+    // TreeNode* bstFromPreorder(vector<int>& preorder) {
+        
+    //     TreeNode* root = nullptr;
+    //     for( int val : preorder)
+    //     {
+    //         root = solve(root, val);
+    //     }
+    //     return root;
+    // }
+
+
+    // OPTIMAL APPROACH
+
+    TreeNode* solve(TreeNode* root, int &min, int &max,int val)
     {
-        if(root==nullptr)
+        //base case
+        if(root==NULL)
         {
-           return new TreeNode(val); 
+            return new TreeNode(val);
         }
 
-        if(root->val > val)
+        //NLR
+        //N
+
+        if(val > min && val < max)
         {
-            root->left = solve(root->left, val);
+             if (val < root->val) {
+            root->left = solve(root->left, min, root->val, val);  // Go left
+        }
+        else {
+            root->right = solve(root->right, root->val, max, val);  // Go right
+        }
         }
         
-        if(root->val < val)
-        {
-            root->right = solve(root->right, val);
-        }
 
         return root;
-
-
     }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
         
         TreeNode* root = nullptr;
-        for( int val : preorder)
+        int min = INT_MIN;
+        int max = INT_MAX;
+
+        for(int val : preorder)
         {
-            root = solve(root, val);
+            root = solve(root, min , max , val);
         }
+
         return root;
+        
     }
+    
 };
