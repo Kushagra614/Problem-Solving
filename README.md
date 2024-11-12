@@ -39,6 +39,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -54,6 +55,7 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -71,6 +73,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -190,6 +193,7 @@
 | [0045-jump-game-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Kushagra614/Problem-Solving/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Counting Sort
 |  |
 | ------- |
@@ -232,4 +236,9 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
+## Divide and Conquer
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 <!---LeetCode Topics End-->
