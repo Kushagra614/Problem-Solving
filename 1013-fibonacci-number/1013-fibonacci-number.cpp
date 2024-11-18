@@ -15,7 +15,7 @@ public:
     }
 
     // USING DP - TOP DOWN (RECURSION + MEMEOISATION)
-    int fiboDP(int n, vector<int>&dp)
+    int fiboMemoDP(int n, vector<int>&dp)
     {
         //base case
         if(n==0||n==1)
@@ -30,10 +30,33 @@ public:
         }
 
         //step 2: store or return ans in dp
-        dp[n] = fiboDP(n-1, dp) + fiboDP(n-2, dp);
+        dp[n] = fiboMemoDP(n-1, dp) + fiboMemoDP(n-2, dp);
         return dp[n];
     }
 
+    // USING DP - BOTTOM UP (TABULATION METHOD)
+    int fiboTabDP(int n , vector<int>dp)
+    {
+        // base case
+        if(n==0 || n==1)
+        {
+            return n;
+        }
+
+        //step2: Fill initial data -> byanalyzing the base case
+        dp[0] = 0;
+        dp[1] = 1;
+
+
+        //step 3: Fill the remainaing DP -> using the logic of Rec. Relation
+        //now a loop for iteration of n
+        for(int i = 2; i<=n; i++)
+        {
+            dp[i] = dp[i-1] + dp[i-2];
+        }
+
+        return dp[n];
+    }
 
     int fib(int n) {
         // int ans = fiboRec(n);
@@ -43,7 +66,8 @@ public:
         vector<int>dp(n+1,-1);
 
 
-        int ans = fiboDP(n,dp);
+        // int ans = fiboMemoDP(n,dp);
+        int ans = fiboTabDP(n, dp);
         return ans;
     }
 };
