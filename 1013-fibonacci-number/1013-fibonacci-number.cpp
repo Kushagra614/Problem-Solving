@@ -52,10 +52,44 @@ public:
         //now a loop for iteration of n
         for(int i = 2; i<=n; i++)
         {
+            // copy paste recurve logic
+            // replace the rec. calls with DP arr.
             dp[i] = dp[i-1] + dp[i-2];
         }
 
         return dp[n];
+    }
+
+
+    // USING DP - BOTTOM UP (TABULATION METHOD) - SPACE OPTIMIZATION
+    int fiboTabDPspaceOpt(int n)
+    {
+        // base case
+        if(n==0 || n==1)
+        {
+            return n;
+        }
+
+        //step2: Initialise the varibles
+        int prev = 0;
+        int curr = 1;
+        int ans;
+
+
+        
+
+
+        //step 3: Fill the remainaing DP -> using the logic of Rec. Relation
+        //now a loop for iteration of n
+        for(int i = 2; i<=n; i++)
+        {
+            ans = prev + curr;
+            prev = curr;
+            curr = ans;
+            
+        }
+
+        return ans;
     }
 
     int fib(int n) {
@@ -67,7 +101,8 @@ public:
 
 
         // int ans = fiboMemoDP(n,dp);
-        int ans = fiboTabDP(n, dp);
-        return ans;
+        // int ans = fiboTabDP(n, dp);
+        // return ans;
+        return fiboTabDPspaceOpt( n);
     }
 };
