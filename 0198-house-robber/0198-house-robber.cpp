@@ -44,15 +44,37 @@ public:
 
         return dp[i];
     }
-    int rob(vector<int>& nums) {
-        int i = 0;
-        // return solveRec(nums,i);
+/*STeps for Tabluation
+1) create a dp arr
+2) analyise the base case and add initial values in array
+3) fill the reamaing data acc to the recursive relation
+*/
+    int solveDPtabulation(vector<int>& nums, int i, vector<int>& dp) {
+    int n = nums.size();
+    if (n == 0) return 0;       // Handle empty input
+    if (n == 1) return nums[0]; // Handle single element case
 
-        //step1
-        int n = nums.size();
-        vector<int>dp(n+1,-1);
+    // Step 2: Base cases
+    dp[n - 1] = nums[n - 1]; // If we rob the last house
+    for (int k = n - 2; k >= 0; --k) {
+        int temp = 0;
+        if (k + 2 < n) { // Handle out-of-bounds for dp[k + 2]
+            temp = dp[k + 2];
+        }
 
-        return solveDPtopDown(nums,i,dp);
-
+        int include = nums[k] + temp;
+        int exclude = 0 + dp[k + 1];
+        dp[k] = max(include, exclude);
     }
+
+    // Step 3: The answer is stored at dp[0]
+    return dp[0];
+}
+
+int rob(vector<int>& nums) {
+    int i = 0;
+    int n = nums.size();
+    vector<int> dp(n, -1); // Step 1: Initialize dp with -1
+    return solveDPtabulation(nums, i, dp);
+}
 };
