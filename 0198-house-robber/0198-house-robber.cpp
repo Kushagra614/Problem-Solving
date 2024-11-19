@@ -70,11 +70,54 @@ public:
     // Step 3: The answer is stored at dp[0]
     return dp[0];
 }
+/*space Optimization
+step 1) use var by analysing the base case-> adn put val
+step 2) use logic in the form of varibales ( logic from the tabulation format)
+step 3) never forget to increment or decrement the var acc to the problem
 
+*/
+
+
+
+int solveDPspaceOpt(vector<int>& nums, int i) {
+    int n = nums.size();
+    if (n == 0) return 0;       // Handle empty input
+    if (n == 1) return nums[0]; // Handle single element case
+
+    //step2-> varibales with vales
+    int prev = nums[n-1];
+    int curr ;
+    int next = 0;
+
+    for(int i = n-2; i>=0; i--)
+    {
+        //use the logic in the form of varibales
+        int temp = 0;
+        if(i +2 <n)
+        {
+            temp = next;
+        }
+
+        int include = nums[i] + temp;
+        int exclude = 0 + prev;
+        curr = max(include, exclude);
+
+        //iterating the var
+        next = prev;
+        prev = curr;
+
+
+    }
+
+    return curr;
+
+
+}
 int rob(vector<int>& nums) {
     int i = 0;
     int n = nums.size();
     vector<int> dp(n, -1); // Step 1: Initialize dp with -1
-    return solveDPtabulation(nums, i, dp);
+    // return solveDPtabulation(nums, i, dp);
+    return solveDPspaceOpt(nums,i);
 }
 };
