@@ -161,6 +161,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
+| [1250-longest-common-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/1250-longest-common-subsequence) |
 | [3379-score-of-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/3379-score-of-a-string) |
 ## Hash Table
 |  |
@@ -197,6 +198,7 @@
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Kushagra614/Problem-Solving/tree/master/1013-fibonacci-number) |
+| [1250-longest-common-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/1250-longest-common-subsequence) |
 ## Greedy
 |  |
 | ------- |
