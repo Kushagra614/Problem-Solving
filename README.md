@@ -109,6 +109,7 @@
 | [0322-coin-change](https://github.com/Kushagra614/Problem-Solving/tree/master/0322-coin-change) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/Kushagra614/Problem-Solving/tree/master/0485-max-consecutive-ones) |
+| [0747-min-cost-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0747-min-cost-climbing-stairs) |
 | [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -194,6 +195,7 @@
 | [0198-house-robber](https://github.com/Kushagra614/Problem-Solving/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Kushagra614/Problem-Solving/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
+| [0747-min-cost-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Kushagra614/Problem-Solving/tree/master/1013-fibonacci-number) |
 ## Greedy
 |  |
