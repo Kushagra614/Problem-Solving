@@ -50,13 +50,13 @@ class Solution {
         if(s1[n-1]==s2[m-1])
         {
             count =  1 + solveDPmemo(s1,s2,n-1,m-1,dp); 
-            return count;
+            // return count;
         }
         
         else
         {
             count =  max(solveDPmemo(s1,s2,n,m-1,dp), solveDPmemo(s1,s2,n-1,m,dp));
-            return count;
+            // return count;
         }
         
         dp[n][m] = count;
@@ -99,8 +99,8 @@ class Solution {
         
         // return solveR(s1,s2,n,m);
         vector<vector<int>>dp(n+1, vector<int>(m+1,-1));
-        // return solveDPmemo(s1,s2,n,m,dp);
-        return solveDPtabu(s1,s2,n,m,dp);
+        return solveDPmemo(s1,s2,n,m,dp);
+        // return solveDPtabu(s1,s2,n,m,dp);
         
     }
 };
