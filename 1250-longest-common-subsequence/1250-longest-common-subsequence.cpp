@@ -1,64 +1,96 @@
 class Solution {
 public:
-    int solveRec(string text1, string text2, int i, int j)
+    
+    int solveR(string& text1, string& text2, int n, int m)
     {
-        // base case
-        if (i >= text1.size() || j >= text2.size()) {
+        //base case
+        if(n==0 || m==0)
+        {
             return 0;
         }
-
+        
         //rec relation
-        //ans for match
-        int ans;
-        if(text1[i]==text2[j])
+        if(text1[n-1]==text2[m-1])
         {
-        ans = 1 + solveRec( text1, text2, i+1, j+1);
+            return 1 + solveR(text1,text2,n-1,m-1); 
         }
-        else{
-        ans =0+ max(solveRec(text1, text2, i+1, j), solveRec(text1, text2, i, j+1));
-
+        
+        else
+        {
+            return max(solveR(text1,text2,n,m-1), solveR(text1,text2,n-1,m));
         }
-        return ans;
-
-
-    } 
-
-
-    int solveDPmemo(string &text1, string &text2, int i, int j,vector<vector<int>>&dp)
+        
+        
+    }
+    
+    int solveDPmemo(string& text1, string& text2, int n, int m, vector<vector<int>>&dp)
     {
-        // base case
-        if (i >= text1.size() || j >= text2.size()) {
+        //base case
+        if(n==0 || m==0)
+        {
             return 0;
         }
-        //check for ans
-        if(dp[i][j]!=-1)
+        
+        //check if ans is present
+        if(dp[n][m] != -1)
         {
-            return dp[i][j];
+            return dp[n][m];
         }
+        
+        int count;
         //rec relation
-        //ans for match
-        int ans;
-        if(text1[i]==text2[j])
+        if(text1[n-1]==text2[m-1])
         {
-        ans = 1 + solveDPmemo( text1, text2, i+1, j+1,dp);
+            count =  1 + solveDPmemo(text1,text2,n-1,m-1,dp); 
+            return count;
         }
-        else{
-        ans = 0+ max(solveDPmemo(text1, text2, i+1, j,dp), solveDPmemo(text1, text2, i, j+1,dp));
-
+        
+        else
+        {
+            count =  max(solveDPmemo(text1,text2,n,m-1,dp), solveDPmemo(text1,text2,n-1,m,dp));
+            return count;
         }
-        dp[i][j] = ans;
-        return dp[i][j];
+        
+        dp[n][m] = count;
+        return dp[n][m];
+    }
+    
+    int solveDPtabu(string& text1, string& text2, int n, int m, vector<vector<int>>&dp)
+    {
+        for(int i = 0; i<= n; i++)
+        {
+            dp[i][0] = 0;
+        }
+        for(int j = 0; j<= m; j++)
+        {
+            dp[0][j] = 0;
+        }
+        
+        for(int i = 1; i<= n; i++)
+        {
+            for(int j = 1; j<= m; j++)
+            {
+                if(text1[i-1] == text2[j-1])
+                {
+                    dp[i][j] =   1 + dp[i-1][j-1];              
+                    
+                }
+                else
+                {
+                    dp[i][j] = max(dp[i][j-1], dp[i-1][j]);
+                }
+            }
+        }
+        return dp[n][m];
+    }
 
-
-    } 
     int longestCommonSubsequence(string text1, string text2) {
-        int i = 0;
-        int j = 0;
-
-        // return solveRec(text1, text2, i, j);
-
-        //create dp aray 
-        vector<vector<int>>dp(text1.size()+1,vector<int>(text2.size()+1, -1));
-        return solveDPmemo( text1, text2, i, j,dp);
+        int n = text1.size();
+        int m = text2.size();
+        
+        // return solveR(s1,s2,n,m);
+        vector<vector<int>>dp(n+1, vector<int>(m+1,-1));
+        // return solveDPmemo(s1,s2,n,m,dp);
+        return solveDPtabu(text1,text2,n,m,dp);
     }
 };
