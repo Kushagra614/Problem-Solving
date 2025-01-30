@@ -1,90 +1,47 @@
 class Solution {
 public:
 
-    bool solveR(vector<int>&nums,int n, int sum)
-    {
-        // base case
-        if(sum == 0)return true;
-        if(n==0) return false;
-
-        //rec relation
-        
-        
-        return solveR(nums,n-1,sum-nums[n-1]) || solveR(nums, n-1, sum);
-        
-        
-    }
-
-
-    bool solveDPmemo(vector<int>&nums,int n, int sum,vector<vector<int>>&dp)
-    {
-        // base case
-        if(sum == 0)return true;
-        if(n==0 || sum < 0) return false;
-
-        //check if ans is present
-       if (dp[n][sum] != -1) {
-        return dp[n][sum];
-    }
-
-        //rec relation
-        
-        
-        dp[n][sum] =  solveDPmemo(nums,n-1,sum-nums[n-1],dp) || solveDPmemo(nums, n-1, sum,dp);
-        return dp[n][sum];
-        
-        
-    }
-    bool solveDPtabulation(vector<int>&nums,int n, int sum,vector<vector<int>>&dp)
+    int DPmemo(vector<int>& nums, int n, int k,vector<vector<int>>&dp)
     {
         //base case
-        if(n==0 || sum<0) return false;
-        if(sum == 0) return true;
+        if(k==0) return 1;
+        if(n==0) return 0;
+        
+        //checking ans
+        if(dp[n][k] != -1)
+        {
+            return dp[n][k];
+        }
 
-         //analysing the base case and filling the dp
-         for(int i = 0; i<=n; i++)
-         {
-            dp[i][0] = 1;
-         }
-         for(int j = 0; j<=sum; j++)
-         {
-            dp[0][j] = 0;
-         }
+        //rec relation
+        if(nums[n-1] <= k)
+        {
+            dp[n][k] = DPmemo(nums, n-1, k - nums[n-1], dp)|| DPmemo(nums, n-1, k , dp);
+        }
+        else
+        {
+            dp[n][k] =  DPmemo(nums, n-1, k , dp);
+        }
 
-         //rec relation
-         for(int i = 1; i<= n; i++)
-         {
-            for(int j = 1; j<= sum; j++)
-            {
-                if(nums[i-1] <= j ){
-                dp[i][j] = dp[i-1][j-nums[i-1]] || dp[i-1][j];
-                }
-                else
-                {
-                    dp[i][j] = dp[i-1][j];
-                }
-            }
-         }
-
-         return dp[n][sum];
-
+        return dp[n][k];
     }
+
+    // int DPtabu(vector<int>& nums, int n, int k,vector<vector<int>>&dp)
+    // {
+    //     //filling initial data
+        
+    // }
     bool canPartition(vector<int>& nums) {
-        int n = nums.size();
+        int n= nums.size();
+        
         int sum = 0;
-       
         for(auto i : nums)
         {
-            sum+=i;
-
+            sum+= i;
         }
-        if(sum & 1) return false;
-
-
-        // return solveR(nums,n,sum/2);
-        vector<vector<int>>dp(n+1, vector<int>(sum+1,-1));
-        // return solveDPmemo(nums, n,  sum/2, dp);
-        return solveDPtabulation(nums, n,  sum/2, dp);
-       
+        int k = sum/2;
+        vector<vector<int>>dp(n+1, vector<int>(k+1,-1));
+        if(sum&1) return false;
+        return  DPmemo(nums, n-1, k , dp); 
     }
 };
