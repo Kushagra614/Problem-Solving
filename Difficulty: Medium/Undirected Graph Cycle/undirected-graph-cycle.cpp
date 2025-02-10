@@ -6,7 +6,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-    bool solve(int src, unordered_map<int,bool>&vis,vector<vector<int>>& adj)
+    bool solveBFS(int src, unordered_map<int,bool>&vis,vector<vector<int>>& adj)
     {
         queue<int>q;
         unordered_map<int,int>parent;
@@ -41,23 +41,46 @@ class Solution {
         return false;
         
     }
-    bool isCycle(vector<vector<int>>& adj) {
-        
-        //vis arr
-        int V = adj.size();
-        unordered_map<int,bool>vis;
-        
-        for(int i = 0; i< V; i++)
+    
+    bool solveDFS(int src, unordered_map<int, bool>& vis, vector<vector<int>>& adj, int parent)
+{
+    vis[src] = true;
+
+    for (auto nbr : adj[src])
+    {
+        if (!vis[nbr])
         {
-            if(!vis[i]){
-            if(solve(i,vis,adj))
+            if (solveDFS(nbr, vis, adj, src))  
             {
-                return true;
+                return true;  
             }
         }
+        else if (nbr != parent)  
+        {
+            return true;  
         }
-        return false;
     }
+    return false;  // No cycle detected
+}
+
+bool isCycle(vector<vector<int>>& adj)
+{
+    int V = adj.size();
+    unordered_map<int, bool> vis;
+
+    for (int i = 0; i < V; i++)
+    {
+        if (!vis[i])
+        {
+            if (solveDFS(i, vis, adj, -1))  // Start DFS with parent = -1
+            {
+                return true;  // Cycle found
+            }
+        }
+    }
+    return false;  // No cycle found in any component
+}
+
     
     
 };
