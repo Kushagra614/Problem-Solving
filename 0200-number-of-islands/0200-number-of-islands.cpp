@@ -9,13 +9,12 @@ public:
 }
 
 
-        grid[i][j] = 'X';  // Mark the cell as visited
-
-        // Explore in all four directions
-        dfs(grid, i - 1, j); // Up
-        dfs(grid, i + 1, j); // Down
-        dfs(grid, i, j - 1); // Left
-        dfs(grid, i, j + 1); // Right
+        grid[i][j] = 'X';  
+       
+        dfs(grid, i - 1, j);
+        dfs(grid, i + 1, j); 
+        dfs(grid, i, j - 1); 
+        dfs(grid, i, j + 1); 
     }
 
     int numIslands(vector<vector<char>>& grid) {
@@ -25,7 +24,7 @@ public:
 
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                if(grid[i][j] == '1') {  // Corrected condition
+                if(grid[i][j] == '1') {  
                     dfs(grid, i, j);
                     ans++;
                 }
