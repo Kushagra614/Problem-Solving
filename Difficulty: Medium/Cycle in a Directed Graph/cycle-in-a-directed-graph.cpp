@@ -6,39 +6,43 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-    bool solveDFS(int src, unordered_map<int,bool>&vis, unordered_map<int,bool>&track, vector<vector<int>>&adj, int parent)
+    // Function to detect cycle in a directed graph.
+    bool dfs(int src, vector<vector<int>>&adj, vector<int>&dfsTrack, vector<int>&vis)
     {
-        
-        vis[src] = true;
-        track[src] = true;
+        //inistialisation
+        vis[src] = 1;
+        dfsTrack[src] = 1;
         
         for(auto i : adj[src])
         {
             if(!vis[i])
             {
-                if(solveDFS(i,vis,track,adj,src)) return true;
+                if(dfs(i,adj,dfsTrack, vis))
+                {
+                    return true;
+                }
+                
             }
-            else if(track[i]){
-            return true;
-         }
-         
+            else if(vis[i] == true && dfsTrack[i] == true) return true;
         }
         
-        track[src] = false;  // Remove from recursion stack
+        dfsTrack[src] = 0;
         return false;
-        
     }
-    bool isCyclic(int V, vector<vector<int>>&adj) {
-        unordered_map<int, bool>vis;
-        unordered_map<int,bool>track;
-        //case for disconnected graph
-        int v = adj.size();
-         for(int i = 0; i < v; i++)
-        {
-            if(solveDFS(i,vis,track,adj,-1)) return true;
-        }
+    bool isCyclic(vector<vector<int>> &adj) {
         
-        return false;
+         int n = adj.size();
+         vector<int>dfsTrack(n,0);
+         vector<int>vis(n,0);
+         
+         for(int i = 0; i<n ; i++)
+         {
+             if(!vis[i])
+             { 
+                 if(dfs(i, adj ,dfsTrack, vis)) return true;
+             }
+         }
+         return false;
     }
 };
 
@@ -61,7 +65,7 @@ int main() {
         }
 
         Solution obj;
-        cout << obj.isCyclic(V, adj) << "\n";
+        cout << obj.isCyclic(adj) << "\n";
 
         cout << "~"
              << "\n";
