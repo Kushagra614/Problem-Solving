@@ -51,6 +51,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Kushagra614/Problem-Solving/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/Kushagra614/Problem-Solving/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/Kushagra614/Problem-Solving/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -82,6 +83,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0102-binary-tree-level-order-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Kushagra614/Problem-Solving/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/Kushagra614/Problem-Solving/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/Kushagra614/Problem-Solving/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/Kushagra614/Problem-Solving/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -281,4 +283,12 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Kushagra614/Problem-Solving/tree/master/0200-number-of-islands) |
+## Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Kushagra614/Problem-Solving/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Kushagra614/Problem-Solving/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
