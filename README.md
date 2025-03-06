@@ -56,6 +56,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/Kushagra614/Problem-Solving/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Binary Tree
@@ -86,6 +87,7 @@
 | [0207-course-schedule](https://github.com/Kushagra614/Problem-Solving/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/Kushagra614/Problem-Solving/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0547-number-of-provinces](https://github.com/Kushagra614/Problem-Solving/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Array
 |  |
@@ -279,6 +281,7 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Kushagra614/Problem-Solving/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/Kushagra614/Problem-Solving/tree/master/0547-number-of-provinces) |
 ## Matrix
 |  |
 | ------- |
@@ -287,6 +290,7 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Kushagra614/Problem-Solving/tree/master/0207-course-schedule) |
+| [0547-number-of-provinces](https://github.com/Kushagra614/Problem-Solving/tree/master/0547-number-of-provinces) |
 ## Topological Sort
 |  |
 | ------- |
