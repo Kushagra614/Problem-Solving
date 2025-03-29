@@ -159,6 +159,7 @@
 | [0070-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
+| [0728-self-dividing-numbers](https://github.com/Kushagra614/Problem-Solving/tree/master/0728-self-dividing-numbers) |
 | [1013-fibonacci-number](https://github.com/Kushagra614/Problem-Solving/tree/master/1013-fibonacci-number) |
 ## String
 |  |
