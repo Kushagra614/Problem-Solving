@@ -1,22 +1,19 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        // the logic=> we will put all the elemets in a set 
-        // which cant have duplicates
-
-        set<int>s;
         int i = 0;
-        for(int num:nums)
-        {
-            s.insert(num);
-        }
+        int j = i+1;
 
-        nums.clear();
-        
-        for (int n : s) {
-            nums.push_back(n);
+        while(j<nums.size())
+        {
+            if(nums[i] != nums[j])
+            {
+                nums[i+1] = nums[j];
+                i++;
+            }
+           j++;
         }
-        
-        return nums.size();
+        return i+1;
+
     }
 };
