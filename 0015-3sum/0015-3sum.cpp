@@ -1,47 +1,84 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-        int n = nums.size();
-        vector<vector<int>> v;
-        
-        // Step 1: Sort the array
+
+
+        vector<vector<int>>ans;
         sort(nums.begin(), nums.end());
 
-        // Step 2: Outer loop for the first number
-        for (int i = 0; i < n - 2; i++) {
-            // Skip duplicates for the first number
+        for(int i = 0; i<nums.size(); i++)
+        {
             if (i > 0 && nums[i] == nums[i - 1]) continue;
+            int j = i+1;
+            int k = nums.size()-1;
 
-            // Step 3: Two pointers technique
-            int j = i + 1; // Second pointer
-            int k = n - 1; // Third pointer
+            while(j<k)
+            {
+                if(nums[i] + nums[j] + nums[k] == 0)
+                {
+                vector<int>trip = {nums[i], nums[j], nums[k]};
+                ans.push_back(trip);
 
-            while (j < k) {
-                int sum = nums[i] + nums[j] + nums[k];
+                while (j < k && nums[j] == nums[j + 1]) j++;
+                    
+                while (j < k && nums[k] == nums[k - 1]) k--;
 
-                if (sum == 0) {
-                    // If sum is zero, we found a triplet
-                    v.push_back({nums[i], nums[j], nums[k]});
-
-                    // Skip duplicates for the second number
-                    while (j < k && nums[j] == nums[j + 1]) j++;
-                    // Skip duplicates for the third number
-                    while (j < k && nums[k] == nums[k - 1]) k--;
-
-                    // Move both pointers inward
                     j++;
                     k--;
+
                 }
-                else if (sum < 0) {
-                    // Move the second pointer to the right to increase the sum
+                else if(nums[i]+ nums[j]+ nums[k] < 0)
+                {
                     j++;
-                } else {
-                    // Move the third pointer to the left to decrease the sum
+                }
+                else
+                {
                     k--;
                 }
             }
         }
-        
-        return v;
+
+return ans;
+
+
+
+
+        // vector<vector<int>>ans;
+        // //brute force
+
+        // for(int i = 0; i<nums.size(); i++)
+        // {
+        //     for(int j = i+1; j<nums.size(); j++)
+        //     {
+        //         for(int k = j+1; k<nums.size(); k++)
+        //         {
+        //             if(nums[i] + nums[j] + nums[k] == 0)
+        //             {
+        //                 vector<int>trip = {nums[i], nums[j], nums[k]};
+        //                 sort(trip.begin(), trip.end());
+                        
+        //                 bool exists = false;
+        //                 for(auto vec: ans){
+        //                     if(vec == trip)
+        //                     {
+        //                         exists = true;
+        //                         break;
+        //                     }
+        //                 }
+
+        //                 if(!exists)
+        //                 {
+        //                     ans.push_back(trip);
+        //                 }
+
+        //             }
+        //         }
+        //     }
+        // }
+        // return ans;
+
+
+
+
     }
 };
