@@ -131,6 +131,7 @@
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Kushagra614/Problem-Solving/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2536-determine-if-two-events-have-conflict](https://github.com/Kushagra614/Problem-Solving/tree/master/2536-determine-if-two-events-have-conflict) |
 ## Two Pointers
 |  |
 | ------- |
@@ -193,6 +194,7 @@
 | [0344-reverse-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/1250-longest-common-subsequence) |
+| [2536-determine-if-two-events-have-conflict](https://github.com/Kushagra614/Problem-Solving/tree/master/2536-determine-if-two-events-have-conflict) |
 | [3379-score-of-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/3379-score-of-a-string) |
 ## Hash Table
 |  |
