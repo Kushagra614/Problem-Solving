@@ -193,6 +193,7 @@
 | [0125-valid-palindrome](https://github.com/Kushagra614/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0344-reverse-string) |
+| [0383-ransom-note](https://github.com/Kushagra614/Problem-Solving/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/1250-longest-common-subsequence) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Kushagra614/Problem-Solving/tree/master/2536-determine-if-two-events-have-conflict) |
@@ -209,6 +210,7 @@
 | [0202-happy-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0383-ransom-note](https://github.com/Kushagra614/Problem-Solving/tree/master/0383-ransom-note) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Binary Search
 |  |
@@ -254,6 +256,7 @@
 | ------- |
 | [0169-majority-element](https://github.com/Kushagra614/Problem-Solving/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0274-h-index) |
+| [0383-ransom-note](https://github.com/Kushagra614/Problem-Solving/tree/master/0383-ransom-note) |
 ## Prefix Sum
 |  |
 | ------- |
