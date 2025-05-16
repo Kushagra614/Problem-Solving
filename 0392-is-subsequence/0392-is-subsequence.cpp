@@ -18,10 +18,11 @@ public:
 
         }
 
-        if(count == s.size())
-        {
-            return true;
-        }
+        // if(count == s.size())
+        // {
+        //     return true;
+        // }
+        if(i== s.size()) return true;
         else {
             return false;
         }
