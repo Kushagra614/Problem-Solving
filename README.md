@@ -22,6 +22,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/Kushagra614/Problem-Solving/tree/master/0234-palindrome-linked-list) |
+| [0874-backspace-string-compare](https://github.com/Kushagra614/Problem-Solving/tree/master/0874-backspace-string-compare) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Tree
 |  |
@@ -157,6 +158,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0874-backspace-string-compare](https://github.com/Kushagra614/Problem-Solving/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/Kushagra614/Problem-Solving/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/Kushagra614/Problem-Solving/tree/master/1028-interval-list-intersections) |
@@ -195,6 +197,7 @@
 | [0344-reverse-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/Kushagra614/Problem-Solving/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
+| [0874-backspace-string-compare](https://github.com/Kushagra614/Problem-Solving/tree/master/0874-backspace-string-compare) |
 | [1250-longest-common-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/1250-longest-common-subsequence) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Kushagra614/Problem-Solving/tree/master/2536-determine-if-two-events-have-conflict) |
 | [3379-score-of-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/3379-score-of-a-string) |
@@ -340,4 +343,8 @@
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/Kushagra614/Problem-Solving/tree/master/1028-interval-list-intersections) |
+## Simulation
+|  |
+| ------- |
+| [0874-backspace-string-compare](https://github.com/Kushagra614/Problem-Solving/tree/master/0874-backspace-string-compare) |
 <!---LeetCode Topics End-->
