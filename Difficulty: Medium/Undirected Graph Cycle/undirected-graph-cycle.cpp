@@ -1,114 +1,50 @@
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
-
-
-// } Driver Code Ends
 class Solution {
   public:
-    bool solveBFS(int src, unordered_map<int,bool>&vis,vector<vector<int>>& adj)
-    {
-        queue<int>q;
-        unordered_map<int,int>parent;
-        
-        
-        q.push(src);
-        vis[src] = true;
-        parent[src] = -1;
-        
-        while(!q.empty())
-        {
-             int front = q.front();
-            q.pop();
-        
-        for(auto nbr : adj[front])
-        {
-           
-            
-            if(!vis[nbr])
-            {
-              vis[nbr] = true;
-              q.push(nbr);
-              parent[nbr] = front;
+  
+ bool bfs(int start, vector<vector<int>>& adj, vector<int>& vis) {
+    vector<int> parent(vis.size(), -1);
+    queue<int> q;
+
+    vis[start] = 1;
+    q.push(start);
+
+    while (!q.empty()) {
+        int node = q.front();
+        q.pop();
+
+        for (auto i : adj[node]) {
+            if (!vis[i]) {
+                vis[i] = 1;
+                parent[i] = node;
+                q.push(i);
             }
-            else if(vis[nbr] == true && nbr != parent[front])
-            {
+            else if (i != parent[node]) {
                 return true;
             }
-            
-        }
-        }
-        return false;
-        
-    }
-    
-    bool solveDFS(int src, unordered_map<int, bool>& vis, vector<vector<int>>& adj, int parent)
-{
-    vis[src] = true;
-
-    for (auto nbr : adj[src])
-    {
-        if (!vis[nbr])
-        {
-            if (solveDFS(nbr, vis, adj, src))  
-            {
-                return true;  
-            }
-        }
-        else if (nbr != parent)  
-        {
-            return true;  
         }
     }
-    return false;  // No cycle detected
+    return false;
 }
 
-bool isCycle(vector<vector<int>>& adj)
-{
-    int V = adj.size();
-    unordered_map<int, bool> vis;
+bool isCycle(int V, vector<vector<int>>& edges) {
+    vector<int> vis(V, 0);
+    vector<vector<int>> adj(V);  // Initialize with size V
 
-    for (int i = 0; i < V; i++)
-    {
-        if (!vis[i])
-        {
-            if (solveDFS(i, vis, adj, -1))  // Start DFS with parent = -1
-            {
-                return true;  // Cycle found
+    for (auto k : edges) {
+        int u = k[0];
+        int v = k[1];
+        adj[u].push_back(v);
+        adj[v].push_back(u);
+    }
+
+    for (int i = 0; i < V; i++) {
+        if (!vis[i]) {
+            if (bfs(i, adj, vis)) {
+                return true;
             }
         }
     }
-    return false;  // No cycle found in any component
+    return false;
 }
 
-    
-    
 };
-
-//{ Driver Code Starts.
-int main() {
-    int tc;
-    cin >> tc;
-    while (tc--) {
-        int V, E;
-        cin >> V >> E;
-        vector<vector<int>> adj(V);
-        for (int i = 0; i < E; i++) {
-            int u, v;
-            cin >> u >> v;
-            adj[u].push_back(v);
-            adj[v].push_back(u);
-        }
-        Solution obj;
-        bool ans = obj.isCycle(adj);
-        if (ans)
-            cout << "1\n";
-        else
-            cout << "0\n";
-
-        cout << "~"
-             << "\n";
-    }
-    return 0;
-}
-// } Driver Code Ends
