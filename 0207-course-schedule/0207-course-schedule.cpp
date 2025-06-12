@@ -1,73 +1,57 @@
 class Solution {
 public:
-     
-    void dfs(unordered_map<int, list<int>>&adj ,vector<int>& ans, int numCourses)
-    {
-        queue<int>q;
-        unordered_map<int,int>indegree;
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
 
-        //initialise and mark assign all the indegree
-        for(auto i : adj)
+        vector<vector<int>>adj(numCourses);
+        vector<int>indeg(numCourses);
+        queue<int>q;
+        vector<int>ans;
+
+         //creating adj list
+        for(auto e : prerequisites)
         {
-            for(auto nbr : i.second)
+            int u = e[0];
+            int v = e[1];
+            adj[u].push_back(v);
+        }
+
+        //finding all the indeg
+        for(int i = 0; i<numCourses; i++)
+        {
+            for(auto j : adj[i])
             {
-                indegree[nbr]++;
+                indeg[j]++;
             }
         }
 
-        //pushing all the nodes with 0 indegree into queue
-        for(int i = 0; i < numCourses; i++)
+        //all the nodes of indeg 0 to be pushed to queue
+        for(int i = 0; i<numCourses; i++)
         {
-            if(indegree[i] == 0)
+            if(indeg[i] == 0)
             {
                 q.push(i);
             }
         }
 
-        //bfs
+        //now doing bfs
         while(!q.empty())
         {
-            int frontNode = q.front();
+            int node = q.front();
             q.pop();
-            ans.push_back(frontNode);
+            ans.push_back(node);
 
-            for(auto n : adj[frontNode])
+            for(auto i : adj[node])
             {
-                indegree[n] --;
-
-                if(indegree[n] == 0)
+                indeg[i]--;
+                if(indeg[i] == 0)
                 {
-                    q.push(n);
+                    q.push(i);
                 }
-
             }
         }
-
-    }
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int>ans;
-        unordered_map<int, list<int>>adj;
-        //creating adj list
-
-        for(vector<int>i : prerequisites)
-        {
-            int u = i[0];
-            int v = i[1];
-            adj[v].push_back(u);
-        }
+        return (ans.size() == numCourses);
 
 
-        dfs(adj, ans, numCourses);
-
-        if(ans.size() == numCourses)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-        
-
+       
     }
 };
