@@ -1,24 +1,38 @@
 class Solution {
 public:
     int maxScore(vector<int>& cardPoints, int k) {
+        int ans = 0;
+        if(cardPoints.size() == 0) return 0;
         
-        int lsum = 0, rsum = 0, maxSum = 0;
-        for(int i = 0; i<k; i++)
+        //main logic
+        int sum = 0;
+        int maxSum = INT_MIN;
+        //for the leftmost k elememts
+        for(int i = 0; i< k; i++)
         {
-            lsum+= cardPoints[i];
+            sum+= cardPoints[i];
+           
         }
+        maxSum = max(sum, maxSum);
 
-        maxSum = lsum;
-        int j = cardPoints.size()-1;
+        //now sliding the window
+        int l = k-1;
+        int r = cardPoints.size()-1;
 
-        for(int i = k-1; i>=0; i--)
+        for(int m = 0; m<k; m++)
         {
-            lsum -= cardPoints[i];
-            rsum += cardPoints[j];
-            j--;
-            maxSum = max(maxSum , lsum + rsum);
+            sum -= cardPoints[l];
+            l--;
+
+            sum += cardPoints[r];
+            r--;
+
+            maxSum = max(sum, maxSum);
         }
 
         return maxSum;
+
+
+             
     }
 };
