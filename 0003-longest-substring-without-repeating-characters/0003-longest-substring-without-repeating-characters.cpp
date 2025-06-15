@@ -1,91 +1,28 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
+        if (s.size() == 0)return 0; 
+        unordered_set<char>seen;
+        int i = 0;
+        int j = 0;
+        int maxLen = INT_MIN;
 
-        //OPTMIZED SOL
-        int l = 0; int r = 0;
-        int maxLen = 0;
-
-        int hash[256];
-        for (int i = 0; i < 256; i++) 
+        while(j<s.size())
         {
-            hash[i] = -1;
-        }
-
-        while(r < s.size())
-        {
-            if(hash[s[r]] != -1 && hash[s[r]] >= l)
+            //if s[j] is not in the set add it and update the len
+            if(seen.find(s[j]) == seen.end())
             {
-                {
-                    l = hash[s[r]] +1;
-                }
+                seen.insert(s[j]);
+                maxLen = max(maxLen, j - i +1);
+                j++;
             }
-
-            hash[s[r]] = r;
-            maxLen = max(maxLen, r-l+1);
-            r++;
+            else
+            {
+                seen.erase(s[i]);
+                i++;
+            }
         }
-
         return maxLen;
 
-
-
-
-
-//--X------X------X---------X----------X-----------X-------X---------X----------X------X
-
-    // BRUTE FORCE
-        // int maxLen= 0;
-        
-
-        // for(int i = 0; i< s.size(); i++)
-        // {
-        //     string sub = "";
-        //     unordered_set<char>st;
-        //     for(int j = i; j< s.size(); j++)
-        //     {
-        //         if(st.find(s[j]) != st.end())
-        //         {
-        //             break;
-        //         }
-
-        //         sub += s[j];
-        //         st.insert(s[j]);
-
-        //         maxLen = max(maxLen , (int)sub.length());
-        //     }
-
-
-        // }
-        //     return maxLen;
-
-
-
-
-
-
-
-        // int maxLen = 0;
-        
-
-        // for(int i = 0; i< s.size() ; i++)
-        // {
-        //     string sub = "";
-        //     unordered_map<char, bool>mp;
-        //     for(int j = i; j<s.size(); j++)
-        //     {
-        //         if(mp[s[j]] == true)
-        //         {
-        //             break;
-        //         }
-
-        //         mp[s[j]] = true;
-        //         sub += s[j];
-        //         maxLen = max(maxLen, (int)sub.length());
-        //     }
-        // }
-        //     return maxLen;
-        
-      
     }
 };
