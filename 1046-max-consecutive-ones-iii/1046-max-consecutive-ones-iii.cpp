@@ -1,32 +1,38 @@
 class Solution {
 public:
     int longestOnes(vector<int>& nums, int k) {
+        int i = 0;
+        int j = 0;
+        int count = 0;
+        int maxLen = INT_MIN;
 
-        int n = nums.size();
-        int l = 0;        // Left pointer
-        int r = 0;        // Right pointer
-        int maxlen = 0;   // Stores the maximum length of subarray
-        int zeros = 0;    // Count of zeros in the current window
-
-        while (r < n) {
-            if (nums[r] == 0) {
-                zeros++;  // Increment zeros if nums[r] is zero
+        while(j<nums.size())
+        {
+            if(nums[j] != 0)
+            {
+                maxLen = max(maxLen, j-i+1);
+                j++;
             }
-
-            // If there are more than k zeros, shrink the window from the left
-            while (zeros > k) {
-                if (nums[l] == 0) {
-                    zeros--;  // Decrement zeros if nums[l] is zero
+            else if(nums[j] == 0)
+            {
+                if(count < k)
+                {
+                    maxLen = max( maxLen, j-i+1);
+                    count++;
+                    j++;
                 }
-                l++;  // Move the left pointer forward
+                else
+                {
+                    if(nums[i] == 0)
+                    {
+                        count--;
+                    }
+                    i++;
+                }
+                
             }
-
-            // Update the maximum length of the subarray
-            maxlen = max(maxlen, r - l + 1);
-
-            r++;  // Move the right pointer forward
+            
         }
-
-        return maxlen;
+        return maxLen;
     }
 };
