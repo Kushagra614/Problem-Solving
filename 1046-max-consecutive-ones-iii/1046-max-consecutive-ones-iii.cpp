@@ -6,32 +6,51 @@ public:
         int count = 0;
         int maxLen = INT_MIN;
 
+        // while(j<nums.size())
+        // {
+        //     if(nums[j] != 0)
+        //     {
+        //         maxLen = max(maxLen, j-i+1);
+        //         j++;
+        //     }
+        //     else if(nums[j] == 0)
+        //     {
+        //         if(count < k)
+        //         {
+        //             maxLen = max( maxLen, j-i+1);
+        //             count++;
+        //             j++;
+        //         }
+        //         else
+        //         {
+        //             if(nums[i] == 0)
+        //             {
+        //                 count--;
+        //             }
+        //             i++;
+        //         }
+                
+        //     }
+            
+        // }
+        // return maxLen;
+
+
         while(j<nums.size())
         {
-            if(nums[j] != 0)
+            if(nums[j] == 0) count++;
+
+            while(count > k)
             {
-                maxLen = max(maxLen, j-i+1);
-                j++;
-            }
-            else if(nums[j] == 0)
-            {
-                if(count < k)
+                if(nums[i] == 0)
                 {
-                    maxLen = max( maxLen, j-i+1);
-                    count++;
-                    j++;
+                    count--;
                 }
-                else
-                {
-                    if(nums[i] == 0)
-                    {
-                        count--;
-                    }
-                    i++;
-                }
-                
+                i++;
             }
-            
+
+            maxLen = max(maxLen, j-i+1);
+            j++;
         }
         return maxLen;
     }
