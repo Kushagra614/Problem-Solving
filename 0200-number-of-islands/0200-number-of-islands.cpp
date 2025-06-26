@@ -4,9 +4,9 @@ public:
     void dfs(int i, int j, vector<vector<char>>& grid)
     {
         //base case
-        if(i<0 || j<0 || i>= grid.size() || j >= grid[0].size() || grid[i][j] == '0' || grid[i][j] == 'X') return;
+        if(i<0 || j<0 || i>= grid.size() || j >= grid[0].size() || grid[i][j] == '0') return;
 
-        grid[i][j] = 'X';
+        grid[i][j] = '0';
 
         dfs(i-1, j, grid);
         dfs(i+1, j, grid);
