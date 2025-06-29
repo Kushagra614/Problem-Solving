@@ -201,6 +201,7 @@
 | [0125-valid-palindrome](https://github.com/Kushagra614/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Kushagra614/Problem-Solving/tree/master/0205-isomorphic-strings) |
+| [0290-word-pattern](https://github.com/Kushagra614/Problem-Solving/tree/master/0290-word-pattern) |
 | [0344-reverse-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/Kushagra614/Problem-Solving/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
@@ -223,6 +224,7 @@
 | [0205-isomorphic-strings](https://github.com/Kushagra614/Problem-Solving/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/Kushagra614/Problem-Solving/tree/master/0290-word-pattern) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/Kushagra614/Problem-Solving/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kushagra614/Problem-Solving/tree/master/0424-longest-repeating-character-replacement) |
