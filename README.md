@@ -397,4 +397,8 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Kushagra614/Problem-Solving/tree/master/0239-sliding-window-maximum) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/Kushagra614/Problem-Solving/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
