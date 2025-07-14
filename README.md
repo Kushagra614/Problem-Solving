@@ -22,6 +22,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
+| [0155-min-stack](https://github.com/Kushagra614/Problem-Solving/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Kushagra614/Problem-Solving/tree/master/0234-palindrome-linked-list) |
 | [0874-backspace-string-compare](https://github.com/Kushagra614/Problem-Solving/tree/master/0874-backspace-string-compare) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -409,4 +410,8 @@
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Kushagra614/Problem-Solving/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1827-invalid-tweets](https://github.com/Kushagra614/Problem-Solving/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Kushagra614/Problem-Solving/tree/master/1908-recyclable-and-low-fat-products) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Kushagra614/Problem-Solving/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
