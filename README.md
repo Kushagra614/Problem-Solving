@@ -24,6 +24,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kushagra614/Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Kushagra614/Problem-Solving/tree/master/0155-min-stack) |
+| [0224-basic-calculator](https://github.com/Kushagra614/Problem-Solving/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/Kushagra614/Problem-Solving/tree/master/0234-palindrome-linked-list) |
 | [0874-backspace-string-compare](https://github.com/Kushagra614/Problem-Solving/tree/master/0874-backspace-string-compare) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -197,6 +198,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kushagra614/Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0202-happy-number) |
+| [0224-basic-calculator](https://github.com/Kushagra614/Problem-Solving/tree/master/0224-basic-calculator) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0728-self-dividing-numbers](https://github.com/Kushagra614/Problem-Solving/tree/master/0728-self-dividing-numbers) |
 | [1013-fibonacci-number](https://github.com/Kushagra614/Problem-Solving/tree/master/1013-fibonacci-number) |
@@ -212,6 +214,7 @@
 | [0125-valid-palindrome](https://github.com/Kushagra614/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Kushagra614/Problem-Solving/tree/master/0205-isomorphic-strings) |
+| [0224-basic-calculator](https://github.com/Kushagra614/Problem-Solving/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/Kushagra614/Problem-Solving/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Kushagra614/Problem-Solving/tree/master/0290-word-pattern) |
 | [0344-reverse-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0344-reverse-string) |
@@ -321,6 +324,7 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Kushagra614/Problem-Solving/tree/master/0021-merge-two-sorted-lists) |
+| [0224-basic-calculator](https://github.com/Kushagra614/Problem-Solving/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/Kushagra614/Problem-Solving/tree/master/0234-palindrome-linked-list) |
 | [1013-fibonacci-number](https://github.com/Kushagra614/Problem-Solving/tree/master/1013-fibonacci-number) |
 ## Sliding Window
