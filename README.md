@@ -22,6 +22,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Kushagra614/Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Kushagra614/Problem-Solving/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Kushagra614/Problem-Solving/tree/master/0234-palindrome-linked-list) |
 | [0874-backspace-string-compare](https://github.com/Kushagra614/Problem-Solving/tree/master/0874-backspace-string-compare) |
@@ -116,6 +117,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0136-single-number) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Kushagra614/Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kushagra614/Problem-Solving/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Kushagra614/Problem-Solving/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
@@ -192,6 +194,7 @@
 | [0009-palindrome-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Kushagra614/Problem-Solving/tree/master/0013-roman-to-integer) |
 | [0070-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Kushagra614/Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
