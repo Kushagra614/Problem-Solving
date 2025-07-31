@@ -70,6 +70,73 @@ public:
 // };
 
 
+string simplifyPath(string path)
+{
+    stack<string>st;
+    stringstream ss(path);
+    string token = "";
+
+    while(getline(ss, token, '/'))
+    {
+        if(token == "" || token == ".") continue;
+        if(token == ".." )
+        {
+            if(!st.empty()) st.pop();
+
+
+        }
+        else
+        {
+            st.push(token);
+        }
+    }
+
+    string ans = "";
+    while(!st.empty())
+    {
+        auto word = st.top();
+        st.pop();
+        ans = "/" + word + ans;
+
+    }
+    
+
+/*reverse(ans.begin(), ans.end());*/
+return ans.empty() ? "/" : ans;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 string simplifyPath(string path) {
     stack<string> st;
     stringstream ss(path);
@@ -90,10 +157,11 @@ string simplifyPath(string path) {
         {
             auto ch = st.top();
             st.pop();
-            ans= "/" + ch + ans;
+            ans = "/" + ch + ans;
         }
 
         // reverse(ans.begin(), ans.end());
         return ans.empty() ? "/" : ans;
 }
+*/
 };
