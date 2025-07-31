@@ -1,78 +1,86 @@
+/*class MinStack {
+public:
+    stack<long long> st;
+    long long mini;
+
+    MinStack() { mini = INT_MAX; }
+
+    void push(int val) {
+        // 1st ele
+        long long value = val;
+        if (st.empty()) {
+            st.push(value);
+            mini = value;
+        }
+
+        else {
+            if (value < mini) {
+                st.push(2 * value - mini);
+                mini = value;
+            }
+
+            else {
+                st.push(value);
+            }
+        }
+    }
+
+    void pop() {
+        if (st.empty())
+            return;
+
+        long long curr = st.top();
+        st.pop();
+
+        if (curr < mini) {
+            mini = 2 * mini - curr;
+        }
+    }
+
+    int top() {
+        if (st.empty())
+            return -1;
+
+        long long curr = st.top();
+        if (curr >= mini) {
+            return curr;
+        } else {
+            return mini;
+        }
+    }
+
+    int getMin() { return (int)mini; }
+};*/
+
 class MinStack {
-     public:
-         stack<long long> st;
-         long long mini;
+private:
+    stack<pair<int, int>> st; // {value, current_min}
 
-         MinStack() {mini = INT_MAX;}
+public:
+    void push(int val) {
+        if (st.empty()) {
+            st.push({val, val}); // First element is its own min
+        } else {
+            // New min = min(current_min, val)
+            int new_min = min(st.top().second, val);
+            st.push({val, new_min});
+        }
+    }
 
-         void push(int val) {
-             // 1st ele
-             long long value = val;
-             if (st.empty()) {
-                 st.push(value);
-                 mini = value;
-             }
+    void pop() {
+        st.pop(); // Automatically removes the min record
+    }
 
-             else {
-                 if (value < mini) {
-                     st.push(2 * value - mini);
-                     mini = value;
-                 }
+    int top() {
+        return st.top().first; // Actual value
+    }
 
-                 else {
-                     st.push(value);
-                 }
-             }
-         }
-
-         void pop() {
-             if (st.empty()) return;
-
-                 long long curr = st.top();
-                 st.pop();
-
-                 if(curr < mini) {
-                     mini = 2 * mini - curr;
-                 }
-
-             }
-
-         int top() {
-             if (st.empty())
-                 return -1;
-
-             long long curr = st.top();
-             if (curr >= mini) {
-                 return curr;
-             } else {
-                 return mini;
-             }
-             
-         }
-
-         int getMin() { return (int)mini; }
-     };
+    int getMin() {
+        return st.top().second; // Current min (from the pair)
+    }
+};
 
 
-
-        
-
-    
-
-        
-
-    
-
-        
-    
-    
-
-
-
-    
-    
-        
-    
 
 
 /**
