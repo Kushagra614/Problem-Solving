@@ -54,16 +54,16 @@ public:
 
 class MinStack {
 private:
-    stack<pair<int, int>> st; // {value, current_min}
+    stack<pair<int, int>> st; 
 
 public:
     void push(int val) {
         if (st.empty()) {
-            st.push({val, val}); // First element is its own min
+            st.push({val, val}); 
         } else {
-            // New min = min(current_min, val)
-            int new_min = min(st.top().second, val);
-            st.push({val, new_min});
+            
+            int mini = min(st.top().second, val);
+            st.push({val, mini});
         }
     }
 
