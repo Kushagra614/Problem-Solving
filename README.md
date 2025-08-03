@@ -26,6 +26,7 @@
 | [0155-min-stack](https://github.com/Kushagra614/Problem-Solving/tree/master/0155-min-stack) |
 | [0224-basic-calculator](https://github.com/Kushagra614/Problem-Solving/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/Kushagra614/Problem-Solving/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/Kushagra614/Problem-Solving/tree/master/0735-asteroid-collision) |
 | [0874-backspace-string-compare](https://github.com/Kushagra614/Problem-Solving/tree/master/0874-backspace-string-compare) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -226,6 +227,7 @@
 | [0344-reverse-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/Kushagra614/Problem-Solving/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kushagra614/Problem-Solving/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0874-backspace-string-compare](https://github.com/Kushagra614/Problem-Solving/tree/master/0874-backspace-string-compare) |
@@ -333,6 +335,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/Kushagra614/Problem-Solving/tree/master/0021-merge-two-sorted-lists) |
 | [0224-basic-calculator](https://github.com/Kushagra614/Problem-Solving/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/Kushagra614/Problem-Solving/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/Kushagra614/Problem-Solving/tree/master/1013-fibonacci-number) |
 ## Sliding Window
 |  |
