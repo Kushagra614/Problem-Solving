@@ -202,6 +202,7 @@
 | [0009-palindrome-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Kushagra614/Problem-Solving/tree/master/0013-roman-to-integer) |
 | [0070-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0070-climbing-stairs) |
+| [0089-gray-code](https://github.com/Kushagra614/Problem-Solving/tree/master/0089-gray-code) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kushagra614/Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0202-happy-number) |
@@ -270,6 +271,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0089-gray-code](https://github.com/Kushagra614/Problem-Solving/tree/master/0089-gray-code) |
 | [0136-single-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 ## Dynamic Programming
@@ -373,6 +375,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0089-gray-code](https://github.com/Kushagra614/Problem-Solving/tree/master/0089-gray-code) |
 | [0494-target-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0494-target-sum) |
 ## Union Find
 |  |
