@@ -1,20 +1,38 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> hashMap;  // Map to store the value and its index
+
+        // ---------------BRUTE FORCE----------------------------------
+        // vector<int>ans;
+
+        // for(int i = 0; i< nums.size(); i++)
+        // {
+        //     for(int j = i+1; j < nums.size(); j++)
+        //     {
+        //         if(nums[i] + nums[j] == target)
+        //         {
+        //             ans.push_back(i);
+        //             ans.push_back(j);
+        //         }
+        //     }
+        // }
+        // return ans;
+
+        // -------------OPTIMISED-----------------------------------------
+        unordered_map<int,int>mp;
+        for(int i = 0; i < nums.size(); i++)
+        {
+            int rest = target - nums[i];
         
-        for (int i = 0; i < nums.size(); i++) {
-            int complement = target - nums[i];  // Calculate complement
-            
-            // If complement exists in the map, we found the pair
-            if (hashMap.find(complement) != hashMap.end()) {
-                return {hashMap[complement], i};  // Return the indices
-            }
-            
-            // Store the current value and its index in the map
-            hashMap[nums[i]] = i;
+
+        if(mp.find(rest) != mp.end())
+        {
+            return{mp[rest], i};
         }
-        
-        return {};  // Return an empty vector if no solution is found (problem guarantees a solution)
+
+        mp[nums[i]] = i;
+        }
+
+        return{};
     }
 };
