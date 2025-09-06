@@ -47,6 +47,7 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Depth-First Search
@@ -85,6 +86,7 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Breadth-First Search
@@ -369,6 +371,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Divide and Conquer
@@ -430,6 +433,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Kushagra614/Problem-Solving/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/Kushagra614/Problem-Solving/tree/master/1014-k-closest-points-to-origin) |
 ## Monotonic Queue
 |  |
@@ -451,6 +455,7 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Kushagra614/Problem-Solving/tree/master/0155-min-stack) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -465,4 +470,8 @@
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/Kushagra614/Problem-Solving/tree/master/1014-k-closest-points-to-origin) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
