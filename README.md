@@ -136,6 +136,7 @@
 | [0274-h-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/Kushagra614/Problem-Solving/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/Kushagra614/Problem-Solving/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/Kushagra614/Problem-Solving/tree/master/0485-max-consecutive-ones) |
@@ -194,6 +195,7 @@
 | [0242-valid-anagram](https://github.com/Kushagra614/Problem-Solving/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [1019-squares-of-a-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/1019-squares-of-a-sorted-array) |
 ## Math
@@ -253,6 +255,7 @@
 | [0242-valid-anagram](https://github.com/Kushagra614/Problem-Solving/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
 | [0290-word-pattern](https://github.com/Kushagra614/Problem-Solving/tree/master/0290-word-pattern) |
+| [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/Kushagra614/Problem-Solving/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kushagra614/Problem-Solving/tree/master/0424-longest-repeating-character-replacement) |
@@ -305,6 +308,7 @@
 | ------- |
 | [0169-majority-element](https://github.com/Kushagra614/Problem-Solving/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/Kushagra614/Problem-Solving/tree/master/0383-ransom-note) |
 ## Prefix Sum
 |  |
@@ -366,6 +370,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Kushagra614/Problem-Solving/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Memoization
 |  |
@@ -416,6 +421,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Kushagra614/Problem-Solving/tree/master/0239-sliding-window-maximum) |
+| [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -436,4 +442,12 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Kushagra614/Problem-Solving/tree/master/0155-min-stack) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
