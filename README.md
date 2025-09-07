@@ -144,6 +144,7 @@
 | [0416-partition-equal-subset-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/Kushagra614/Problem-Solving/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0494-target-sum) |
+| [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0518-coin-change-ii) |
 | [0713-subarray-product-less-than-k](https://github.com/Kushagra614/Problem-Solving/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/Kushagra614/Problem-Solving/tree/master/0735-asteroid-collision) |
@@ -202,6 +203,7 @@
 | [0274-h-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
 | [1014-k-closest-points-to-origin](https://github.com/Kushagra614/Problem-Solving/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/1019-squares-of-a-sorted-array) |
 ## Math
@@ -309,6 +311,7 @@
 | [0045-jump-game-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Kushagra614/Problem-Solving/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
 | [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Counting Sort
 |  |
@@ -433,6 +436,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Kushagra614/Problem-Solving/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
+| [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/Kushagra614/Problem-Solving/tree/master/1014-k-closest-points-to-origin) |
 ## Monotonic Queue
