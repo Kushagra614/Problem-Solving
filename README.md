@@ -141,6 +141,7 @@
 | [0322-coin-change](https://github.com/Kushagra614/Problem-Solving/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/Kushagra614/Problem-Solving/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/Kushagra614/Problem-Solving/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0494-target-sum) |
@@ -436,6 +437,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/Kushagra614/Problem-Solving/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Kushagra614/Problem-Solving/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/Kushagra614/Problem-Solving/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/Kushagra614/Problem-Solving/tree/master/1014-k-closest-points-to-origin) |
