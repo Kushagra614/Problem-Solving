@@ -13,9 +13,9 @@ public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode* ans = nullptr;
         ListNode* curr = nullptr;
-        int carry = 0;
+        int carry =0;
 
-        while (l1 != nullptr || l2 != nullptr || carry!= 0) {
+        while (l1 != nullptr || l2 != nullptr || carry != 0) {
 
             int sum = carry;
             if (l1 != nullptr) {
@@ -28,26 +28,23 @@ public:
                 l2 = l2->next;
             }
 
-            // now the core logic
-            int dig = sum % 10;
-            carry = sum / 10;
-            
+            int dig = sum%10;
+            carry = sum/10;
 
-            // create a new node
-            ListNode* nn = new ListNode(dig);
+            ListNode* newNode = new ListNode(dig);
 
-
-            if (ans == nullptr) {
-                ans = nn;
-                curr = nn;
-            } else {
-                curr->next = nn;
-                curr = nn;
+            //enter this newNode to the ansLL
+            if(ans == nullptr)
+            {
+                ans = newNode;
+                curr = newNode;
             }
-
-            
+            else
+            {
+                curr->next = newNode;
+                curr = curr->next;
+            }
         }
-
         return ans;
     }
 };
