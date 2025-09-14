@@ -25,7 +25,16 @@ public:
             minSum = min(minSum, curMin);
             total += num;
         }
-        return maxSum > 0 ? max(maxSum, total - minSum) : maxSum;
+        
+        if(total == minSum)
+        {
+            return maxSum;
+        }
+        else
+        {
+            
+            return max(total - minSum, maxSum);
+        }
     
     }
 };
