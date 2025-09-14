@@ -1,36 +1,35 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-
-        // ------------BRUTE FORCE-------------------------------
-        // int maxProduct = INT_MIN;
-        // int n = nums.size();
-
-        // for (int i = 0; i < n; i++) {
-        //     int currentProduct = 1;
-        //     for (int j = i; j < n; j++) {
-        //         currentProduct *= nums[j];
-        //         if (currentProduct > maxProduct) {
-        //             maxProduct = currentProduct;
-        //         }
-        //     }
-        // }
-
-        // return maxProduct;
-
-
-        // ------------------OPTIMIZED APPROACH----------------------
+        int pre = 1;
+        int suff = 1;
         int maxPro = INT_MIN;
-        int pre = 1, suff = 1;
-        int n = nums.size();
-        for(int i = 0; i < n; i++)
+
+        for(int i = 0; i < nums.size(); i++)
         {
-            if(pre == 0) pre = 1;
-            if(suff == 0) suff = 1;
-            pre*=nums[i];
-            suff*=nums[n-i-1];
-            maxPro = max(maxPro, max(pre,suff));
+                pre *= nums[i];
+                if(pre > maxPro)
+                {
+                    maxPro = pre;
+                }
+                
+                if(pre == 0) pre = 1;
+            
+            
         }
-         return maxPro;
+
+        for(int j = nums.size()-1; j >0; j--)
+        {
+                suff*= nums[j];
+                if(suff > maxPro)
+                {
+                    maxPro = suff;
+                }
+            if(suff == 0) suff = 1;
+            
+        }
+
+        return maxPro;
+        
     }
 };
