@@ -150,6 +150,7 @@
 | [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0518-coin-change-ii) |
 | [0713-subarray-product-less-than-k](https://github.com/Kushagra614/Problem-Solving/tree/master/0713-subarray-product-less-than-k) |
+| [0724-find-pivot-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Kushagra614/Problem-Solving/tree/master/0735-asteroid-collision) |
 | [0747-min-cost-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0747-min-cost-climbing-stairs) |
 | [0940-fruit-into-baskets](https://github.com/Kushagra614/Problem-Solving/tree/master/0940-fruit-into-baskets) |
@@ -334,6 +335,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Kushagra614/Problem-Solving/tree/master/0238-product-of-array-except-self) |
 | [0713-subarray-product-less-than-k](https://github.com/Kushagra614/Problem-Solving/tree/master/0713-subarray-product-less-than-k) |
+| [0724-find-pivot-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0724-find-pivot-index) |
 | [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Trie
