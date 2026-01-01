@@ -156,6 +156,7 @@
 | [0940-fruit-into-baskets](https://github.com/Kushagra614/Problem-Solving/tree/master/0940-fruit-into-baskets) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Kushagra614/Problem-Solving/tree/master/0954-maximum-sum-circular-subarray) |
 | [1014-k-closest-points-to-origin](https://github.com/Kushagra614/Problem-Solving/tree/master/1014-k-closest-points-to-origin) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/Kushagra614/Problem-Solving/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1019-squares-of-a-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/Kushagra614/Problem-Solving/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
@@ -277,6 +278,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0940-fruit-into-baskets](https://github.com/Kushagra614/Problem-Solving/tree/master/0940-fruit-into-baskets) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/Kushagra614/Problem-Solving/tree/master/1016-subarray-sums-divisible-by-k) |
 ## Binary Search
 |  |
 | ------- |
@@ -336,6 +338,7 @@
 | [0238-product-of-array-except-self](https://github.com/Kushagra614/Problem-Solving/tree/master/0238-product-of-array-except-self) |
 | [0713-subarray-product-less-than-k](https://github.com/Kushagra614/Problem-Solving/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0724-find-pivot-index) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/Kushagra614/Problem-Solving/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Trie
