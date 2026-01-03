@@ -157,6 +157,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0747-min-cost-climbing-stairs) |
 | [0940-fruit-into-baskets](https://github.com/Kushagra614/Problem-Solving/tree/master/0940-fruit-into-baskets) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Kushagra614/Problem-Solving/tree/master/0954-maximum-sum-circular-subarray) |
+| [0966-binary-subarrays-with-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0966-binary-subarrays-with-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/Kushagra614/Problem-Solving/tree/master/1014-k-closest-points-to-origin) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Kushagra614/Problem-Solving/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1019-squares-of-a-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/1019-squares-of-a-sorted-array) |
@@ -282,6 +283,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Kushagra614/Problem-Solving/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0940-fruit-into-baskets](https://github.com/Kushagra614/Problem-Solving/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Kushagra614/Problem-Solving/tree/master/1016-subarray-sums-divisible-by-k) |
 ## Binary Search
 |  |
@@ -344,6 +346,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Kushagra614/Problem-Solving/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/Kushagra614/Problem-Solving/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0724-find-pivot-index) |
+| [0966-binary-subarrays-with-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Kushagra614/Problem-Solving/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -385,6 +388,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kushagra614/Problem-Solving/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0713-subarray-product-less-than-k](https://github.com/Kushagra614/Problem-Solving/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/Kushagra614/Problem-Solving/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Binary Search Tree
