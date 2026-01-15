@@ -1,40 +1,28 @@
 class Solution {
 public:
     int maxSubarraySumCircular(vector<int>& nums) {
-        // int maxSum = INT_MIN;
-        // int currS = 0;
-        // int curr2S = 0;
-        // int n = nums.size();
-        
-        
-        // for (int i = 0; i < n; i++) {
-        //     currS += nums[(i+1) % n];
-        //     if (currS > maxSum) maxSum = currS;
-        //     if (currS < 0) currS = 0;
-        // }
-        
-        // return maxSum;
-        // -----------x-------------x--------------x--------------x-------------------x-----------------x
+        int n = nums.size();
 
+        int minend = nums[0];
+        int minsum = nums[0];
+        int maxend = nums[0];
+        int maxsum = nums[0];
 
-        int total = 0, maxSum = nums[0], curMax = 0, minSum = nums[0], curMin = 0;
-        for (int num : nums) {
-            curMax = max(curMax + num, num);
-            maxSum = max(maxSum, curMax);
-            curMin = min(curMin + num, num);
-            minSum = min(minSum, curMin);
-            total += num;
+        int total = nums[0];
+
+        for (int i = 1; i < n; i++) {
+            total += nums[i];
+
+            minend = min(nums[i], minend + nums[i]);
+            minsum = min(minsum, minend);
+
+            maxend = max(nums[i], maxend + nums[i]);
+            maxsum = max(maxsum, maxend);
         }
-        
-        if(total == minSum)
-        {
-            return maxSum;
-        }
-        else
-        {
-            
-            return max(total - minSum, maxSum);
-        }
-    
+
+        // guard: all elements negative
+        if (maxsum < 0) return maxsum;
+
+        return max(maxsum, total - minsum);
     }
 };
