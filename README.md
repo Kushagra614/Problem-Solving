@@ -165,6 +165,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/Kushagra614/Problem-Solving/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/Kushagra614/Problem-Solving/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Kushagra614/Problem-Solving/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Kushagra614/Problem-Solving/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Kushagra614/Problem-Solving/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -217,6 +218,7 @@
 | [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
 | [1014-k-closest-points-to-origin](https://github.com/Kushagra614/Problem-Solving/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/1019-squares-of-a-sorted-array) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/Kushagra614/Problem-Solving/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Math
 |  |
 | ------- |
@@ -296,6 +298,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0713-subarray-product-less-than-k](https://github.com/Kushagra614/Problem-Solving/tree/master/0713-subarray-product-less-than-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/Kushagra614/Problem-Solving/tree/master/1046-max-consecutive-ones-iii) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/Kushagra614/Problem-Solving/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -324,6 +327,7 @@
 | [1013-fibonacci-number](https://github.com/Kushagra614/Problem-Solving/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/1250-longest-common-subsequence) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/Kushagra614/Problem-Solving/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/Kushagra614/Problem-Solving/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Kushagra614/Problem-Solving/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 ## Greedy
 |  |
