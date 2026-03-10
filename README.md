@@ -229,6 +229,7 @@
 | [0002-add-two-numbers](https://github.com/Kushagra614/Problem-Solving/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Kushagra614/Problem-Solving/tree/master/0013-roman-to-integer) |
+| [0062-unique-paths](https://github.com/Kushagra614/Problem-Solving/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [0089-gray-code](https://github.com/Kushagra614/Problem-Solving/tree/master/0089-gray-code) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kushagra614/Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -320,6 +321,7 @@
 | [0045-jump-game-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Kushagra614/Problem-Solving/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Kushagra614/Problem-Solving/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/Kushagra614/Problem-Solving/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kushagra614/Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -528,4 +530,8 @@
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Kushagra614/Problem-Solving/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
