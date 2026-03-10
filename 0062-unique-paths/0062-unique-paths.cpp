@@ -1,35 +1,34 @@
 class Solution {
 public:
-
-    int solveRec(int i, int j, vector<vector<int>>& dp)
+    int solveRec(int i, int j, int m, int n, vector<vector<int>>& dp)
     {
-        //base case
-        if(i == 0 && j == 0)
+        
+        if(i == m-1 && j == n-1)
         {
             return 1;
         }
 
-        if(i < 0 || j < 0)
+        
+        if(i >= m || j >= n)
         {
             return 0;
         }
 
-        //store ans
         if(dp[i][j] != -1)
         {
             return dp[i][j];
         }
 
-        //rec relation
-        int up = solveRec(i-1, j, dp);
-        int left = solveRec(i, j-1, dp);
-        dp[i][j] = up + left;
+        
+        int down  = solveRec(i+1, j,   m, n, dp);
+        int right = solveRec(i,   j+1, m, n, dp);
+        dp[i][j] = down + right;
 
         return dp[i][j];
     }
+
     int uniquePaths(int m, int n) {
-        vector<vector<int>>dp(m, vector<int>(n, -1));
-        int ans = solveRec(m-1,n-1,dp);
-        return ans;
+        vector<vector<int>> dp(m, vector<int>(n, -1));
+        return solveRec(0, 0, m, n, dp);
     }
 };
