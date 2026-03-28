@@ -151,6 +151,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Kushagra614/Problem-Solving/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Kushagra614/Problem-Solving/tree/master/0435-non-overlapping-intervals) |
 | [0485-max-consecutive-ones](https://github.com/Kushagra614/Problem-Solving/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0494-target-sum) |
 | [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
@@ -225,6 +226,7 @@
 | [0274-h-index](https://github.com/Kushagra614/Problem-Solving/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/Kushagra614/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Kushagra614/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0435-non-overlapping-intervals](https://github.com/Kushagra614/Problem-Solving/tree/master/0435-non-overlapping-intervals) |
 | [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
 | [1014-k-closest-points-to-origin](https://github.com/Kushagra614/Problem-Solving/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/Kushagra614/Problem-Solving/tree/master/1019-squares-of-a-sorted-array) |
@@ -339,6 +341,7 @@
 | [0322-coin-change](https://github.com/Kushagra614/Problem-Solving/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Kushagra614/Problem-Solving/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0518-coin-change-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/Kushagra614/Problem-Solving/tree/master/0747-min-cost-climbing-stairs) |
@@ -355,6 +358,7 @@
 | [0045-jump-game-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Kushagra614/Problem-Solving/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kushagra614/Problem-Solving/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0435-non-overlapping-intervals](https://github.com/Kushagra614/Problem-Solving/tree/master/0435-non-overlapping-intervals) |
 | [0502-ipo](https://github.com/Kushagra614/Problem-Solving/tree/master/0502-ipo) |
 | [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
 ## Counting Sort
