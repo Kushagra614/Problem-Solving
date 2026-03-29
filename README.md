@@ -326,6 +326,7 @@
 | [0136-single-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/Kushagra614/Problem-Solving/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/Kushagra614/Problem-Solving/tree/master/0268-missing-number) |
+| [0338-counting-bits](https://github.com/Kushagra614/Problem-Solving/tree/master/0338-counting-bits) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -341,6 +342,7 @@
 | [0152-maximum-product-subarray](https://github.com/Kushagra614/Problem-Solving/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Kushagra614/Problem-Solving/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Kushagra614/Problem-Solving/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/Kushagra614/Problem-Solving/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/Kushagra614/Problem-Solving/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushagra614/Problem-Solving/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Kushagra614/Problem-Solving/tree/master/0435-non-overlapping-intervals) |
