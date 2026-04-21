@@ -49,6 +49,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -74,6 +75,7 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Kushagra614/Problem-Solving/tree/master/0547-number-of-provinces) |
+| [0572-subtree-of-another-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0733-flood-fill](https://github.com/Kushagra614/Problem-Solving/tree/master/0733-flood-fill) |
 | [1285-balance-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/1285-balance-a-binary-search-tree) |
@@ -94,6 +96,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushagra614/Problem-Solving/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Kushagra614/Problem-Solving/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushagra614/Problem-Solving/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -583,4 +586,12 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Kushagra614/Problem-Solving/tree/master/0547-number-of-provinces) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Kushagra614/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
