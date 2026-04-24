@@ -12,36 +12,46 @@
 class Solution {
 public:
 
-    bool solve(TreeNode* root, long long int lb,long long int ub)
+    void inorder(TreeNode* root, vector<int>& ans)
     {
-        //base cse
-        if(root==NULL)
-        {
-            return true;
-        }
+         //inorder traversal of a BST-> gives the elements in inc sorted order 
+        if(root == NULL) return;
+        //inorder -> LNR
+        inorder(root->left, ans);
+        ans.push_back(root->val);
+        inorder(root->right, ans);
 
-        bool cond1 = (root->val > lb);
-        bool cond2 = (root->val < ub);
-        bool leftans = solve(root->left,lb,root->val);
-        bool rightans = solve(root->right,root->val,ub);
-
-        if(cond1 && cond2 && leftans && rightans)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
     }
-
     bool isValidBST(TreeNode* root) {
+        // if(root == NULL) return true;
 
-        //ranges
-        long long int lb =  -2147483947;
-        long long int ub = 2147483947;
+        // //checking
+        // if(root->left != NULL )
+        // {
+        //     if(root->left->val >= root->val) return false;
+        // }
+        // if(root->right != NULL)
+        // {
+        //     if(root->right->val <= root->val) return false;
+        // }
 
-        bool ans = solve(root, lb , ub);
-        return ans;        
+        // return (isValidBST(root->left) && isValidBST(root->right));
+//-----X---------X----------X--------X--------X-------------X-------------X-------------X
+
+        vector<int>ans;
+        inorder(root, ans);
+        int check = ans[0];
+        bool res = true;
+        for(int i = 1; i< ans.size(); i++)
+        {
+            if(check >= ans[i])
+            {
+                res = false;
+            }
+            check = ans[i];
+        }
+
+        return res;
+
     }
 };
