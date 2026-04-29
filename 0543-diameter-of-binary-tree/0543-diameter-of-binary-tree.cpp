@@ -1,29 +1,33 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
 
-    int findHeight(TreeNode* root)
+    int maxLen(TreeNode* root, int &maxi)
     {
-        //base case
-        if(root==NULL)return 0;
-        if(root->left == NULL && root->right== NULL)return 1;
-         int leftH = findHeight(root->left)+1;
-         int rightH = findHeight(root->right)+1;
-         int height = max(leftH, rightH);
-         return height;
+        if(root == NULL) return 0;
+
+        int lh = maxLen(root->left, maxi);
+        int rh = maxLen(root->right, maxi);
+
+        maxi = max(maxi, (lh+rh));
+
+        return 1 + max(lh, rh);
     }
     int diameterOfBinaryTree(TreeNode* root) {
-        //base case
-        if(root==NULL)return 0;
+        if(root == NULL) return 0;
+        int maxi = 0;
+        maxLen(root, maxi);
+        return maxi;
 
-        if(root->left == NULL && root->right== NULL)return 0; 
-
-        //height of left subtree(if both the nodes are in left)
-        int option1 = diameterOfBinaryTree(root->left);
-        //height of right subtree(if both the nodes are in right)
-        int option2 = diameterOfBinaryTree(root->right);
-        //if nodes are in both left and right
-        int option3 = findHeight(root->left)+ findHeight(root->right);
-        int diameter = max(option3, max(option1,option2));
-        return diameter;
     }
 };
